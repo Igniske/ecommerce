@@ -1,0 +1,66 @@
+.product-box {
+    height: 70vh; /* Maintaining original height */
+    width: 25%; /* Maintaining original width */
+    border: 2px double black;
+    justify-content: center;
+    margin: 40px; /* Maintaining original margin */
+}
+
+.image-box {
+    height: 40%; /* Maintaining original height */
+    width: 80%; /* Maintaining original width */
+    margin: 0 auto; /* Maintaining original margin */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-description {
+    height: 35%; /* Maintaining original height */
+    width: 90%; /* Maintaining original width */
+    margin: 0 auto; /* Maintaining original margin */
+}
+
+.product-buttons {
+    height: 25%; /* Maintaining original height */
+    width: 75%; /* Maintaining original width */
+    margin: 0 auto; /* Maintaining original margin */
+}
+
+.quantity-button {
+    background-color: blue;
+    color: antiquewhite;
+    height: 25px;
+    width: 25px;
+}
+
+.add-button {
+    background-color: rgb(52, 133, 255);
+    color: antiquewhite;
+    height: 25px;
+    width: 50px;
+}
+
+.quantity-box {
+    height: 25px;
+    width: 40px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .product-box {
+        width: 90%; /* Adjusting width for smaller screens */
+    }
+
+    .image-box,
+    .product-description,
+    .product-buttons {
+        width: 100%; /* Adjusting width for smaller screens */
+    }
+}

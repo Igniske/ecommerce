@@ -1,0 +1,10 @@
+.product-filter{
+    border: 2px solid black;
+    width: 20%;
+    height: 100vh;
+    position: sticky;
+}
+
+.product-display{
+    width: 80%;
+}
